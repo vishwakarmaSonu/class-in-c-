@@ -1,0 +1,32 @@
+
+#include<iostream>
+using namespace std;
+class student{
+	public:
+	string name;
+	int age;
+	long int phone;
+};
+int main(){
+	student *s1 = new student;
+	student *s2 = new student;
+	cout<<"the detail of the students"<<endl;
+     cout<<" student one"<<endl;
+	s1->name = "sonu  vishwakarma";
+	s1->age=21;
+	s1->phone=9585686;
+
+	cout<<s1->name<< endl <<s1->age<<endl<<s1->phone<<endl;
+
+
+
+
+
+	string num;
+	getline(cin,num);
+	cout<<num;
+
+
+
+	return 0;
+}
